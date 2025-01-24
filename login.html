@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>登录页面</title>
+<link rel="icon" href="src/XLAHRSC_S.jpg">
+<link rel="stylesheet" href="css/log.css">
+</head>
+<body>
+<div class="container">
+	<div class="form-box">
+		<form class="form-login">
+			<h2>登录</h2>
+			<div class="form-group">
+				<label for="login-username">用户名：</label>
+				<input type="text" id="login-username" required>
+			</div>
+			<div class="form-group">
+				<label for="login-password">密码：</label>
+				<input type="password" id="login-password" required>
+			</div>
+			<div class="form-group">
+				<button type="button" onclick="getVerificationCode()">获取验证码</button>
+			</div>
+			<div class="form-group">
+				<button type="submit">登录</button>
+			</div>
+			<div class="form-group">
+				<a href="index.html">返回首页</a> | <a href="register.html">新用户注册</a>
+			</div>
+		</form>
+	</div>
+</div>
+<script>
+	function getVerificationCode() {
+		alert("验证码已发送到您的邮箱");
+	}
+</script>
+</body>
+</html>
