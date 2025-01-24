@@ -1,0 +1,21 @@
+.site_item{
+	color: #00ffff;
+	background-color: #aaffff;
+}
+.foot_links{
+	padding: 0px;
+	margin: 0px;
+}
+.footer_banquan{
+	color: yellow;
+	background-color: black;
+}
+.iv.row{
+	.text{
+		float: left;
+	}
+}
+.map_links{
+	color: #aaffff;
+	background-color: #fed5ff;
+}
